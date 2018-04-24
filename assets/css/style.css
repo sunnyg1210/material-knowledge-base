@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700,800');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input {
+    font-family: 'Raleway', sans-serif !important;
+}
+
 .wrapper {
     height: 100vh;
     display: table;
@@ -16,4 +27,55 @@
     box-shadow: 3px 10px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     min-height: 30vh;
+    margin: 30px auto;
+}
+
+.header {
+    border-bottom: 1px solid #dddddd;
+    padding: 20px;
+}
+
+.header .brand {
+    margin-top: 8px;
+}
+
+.header-search {
+    max-width: 300px;
+    float: right;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.navbar-custom {
+    box-shadow: none !important;
+    border-bottom: 1px solid #dddddd;
+    padding: 0px !important;
+}
+
+.navbar-custom .navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    width: 100%;
+    position: relative;
+}
+
+.navbar-custom .navbar-toggler {
+    position: absolute;
+    top: -17px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+@media (max-width: 991px) {
+    .navbar-custom .navbar-collapse {
+        margin-top: 10px;
+    }
 }
