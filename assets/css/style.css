@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700,800');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700,800|Open+Sans:400,600,700');
 h1,
 h2,
 h3,
@@ -78,4 +78,46 @@ input {
     .navbar-custom .navbar-collapse {
         margin-top: 10px;
     }
+}
+
+@media (min-width: 767px) {
+    .sidebar-wrapper {
+        border-left: 1px solid #dddddd;
+    }
+}
+
+.sidebar-wrapper {
+    padding: 30px 15px;
+}
+
+.sidebar-item {
+    margin-bottom: 20px;
+}
+
+.sidebar-item .title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.sidebar-item .list-group {
+    padding-top: 0px;
+}
+
+.sidebar-item img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    width: 100%;
+    background: #4f4f4f;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
