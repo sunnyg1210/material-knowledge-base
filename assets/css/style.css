@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700,800|Open+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700,800|Open+Sans:400,600,700|Poppins');
 h1,
 h2,
 h3,
-h4,
+h4 {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
 h5,
 h6,
 input {
@@ -120,4 +123,81 @@ input {
     padding: 10px 20px;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.articles-wrapper .card {
+    margin-bottom: 25px !important;
+}
+
+.article {
+    padding: 10px;
+}
+
+.article .heading {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 15px;
+}
+
+.article .heading .title {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
+    color: #565656;
+}
+
+.article .metadata {
+    width: 100%;
+    color: #686868;
+    margin-bottom: 25px;
+}
+
+.article .metadata .info {
+    display: inline-block;
+    margin-right: 10px;
+    background: #ffffff;
+    padding: 10px;
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.1), 5px 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 12px;
+    transition: ease-in-out .25s;
+    border: 1px solid #e8e8e8;
+}
+
+.article .metadata .info i {
+    margin-right: 8px;
+}
+
+.article .metadata .info:hover,
+.article .metadata .info:focus {
+    box-shadow: none;
+}
+
+.article .body {
+    font-family: 'Poppins', sans-serif !important;
+    color: #686868;
+    font-size: 15px;
+}
+
+.article .body img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.14), 5px 6px 10px rgba(0, 0, 0, 0.12);
+    transition: ease-in-out .21s;
+}
+
+.article .body img:hover,
+.article .body img:focus {
+    box-shadow: none;
+}
+
+.article .article-footer {
+    border-top: 1px solid #dddddd;
+    background: #ffffff;
+    color: #686868;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 20px;
 }
