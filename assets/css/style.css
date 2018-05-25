@@ -193,11 +193,62 @@ input {
     box-shadow: none;
 }
 
-.article .article-footer {
+.article .comments {
     border-top: 1px solid #dddddd;
     background: #ffffff;
     color: #686868;
     margin-top: 15px;
     margin-bottom: 15px;
     padding-top: 20px;
+}
+
+.comments-heading {
+    margin-bottom: 20px;
+}
+
+.comments-body .comment {
+    display: table;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.comments-body .comment img.user-image {
+    width: 60px;
+    height: auto;
+    object-fit: contain;
+    display: table-cell;
+    width: 3.5rem;
+    margin-right: 15px;
+    padding-top: 12px;
+}
+
+.comments-body .comment .user-comment:before {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 10px solid transparent;
+    border-right-color: #dddddd;
+    margin-left: -35px;
+    margin-top: 13px;
+}
+
+.comments-body .comment .user-comment {
+    display: table-cell;
+    vertical-align: top;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+}
+
+.comments-body .comment .user-comment .user-comment-options {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #4c4c4c;
+    width: 100%;
+}
+
+.comments-body .comment .user-comment textarea {
+    width: 100%;
 }
