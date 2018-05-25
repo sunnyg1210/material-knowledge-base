@@ -125,8 +125,141 @@ input {
     font-family: 'Open Sans', sans-serif;
 }
 
+.card-ribbon {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    text-align: right;
+}
+
+.card-ribbon span {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 19px;
+    right: -21px;
+}
+
+.card-ribbon span::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    z-index: -1;
+}
+
+.card-ribbon span::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 100%;
+    z-index: -1;
+}
+
+.card-ribbon span.blue {
+    background: #00A1A7;
+}
+
+.card-ribbon span.blue::before {
+    border-left: 3px solid #00A1A7;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #00A1A7;
+}
+
+.card-ribbon span.blue::after {
+    border-left: 3px solid transparent;
+    border-right: 3px solid #00A1A7;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #00A1A7;
+}
+
+.card-ribbon span.red {
+    background: #d32f2f;
+}
+
+.card-ribbon span.red::before {
+    border-left: 3px solid #d32f2f;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #d32f2f;
+}
+
+.card-ribbon span.red::after {
+    border-left: 3px solid transparent;
+    border-right: 3px solid #d32f2f;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #d32f2f;
+}
+
+.card-ribbon span.green {
+    background: #43A047;
+}
+
+.card-ribbon span.green::before {
+    border-left: 3px solid #43A047;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #43A047;
+}
+
+.card-ribbon span.green::after {
+    border-left: 3px solid transparent;
+    border-right: 3px solid #43A047;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #43A047;
+}
+
 .articles-wrapper .card {
     margin-bottom: 25px !important;
+    transition: all .25s ease-in-out;
+}
+
+.articles-wrapper .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .14), 0 6px 5px -4px rgba(0, 0, 0, .2), 0 4px 8px 0px rgba(0, 0, 0, .12);
+}
+
+.articles-wrapper .card .card-body .card-title {
+    margin-bottom: 0px !important;
+}
+
+.articles-wrapper .card .card-body .card-date {
+    display: block;
+    padding: 10px 0px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #4d4d4d;
+}
+
+.articles-wrapper .card .card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;
+    /* fallback */
+    max-height: 50px;
+    /* fallback */
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    box-orient: vertical;
+    -webkit-box-orient: vertical;
 }
 
 .article {
