@@ -2,14 +2,24 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
     font-family: 'Open Sans', sans-serif !important;
 }
 
-h5,
-h6,
 input {
     font-family: 'Raleway', sans-serif !important;
+}
+
+a,
+a:hover,
+a:focus,
+button,
+button:hover,
+button:focus {
+    outline: none !important;
+    text-decoration: none !important;
 }
 
 .wrapper {
@@ -262,28 +272,28 @@ input {
     -webkit-box-orient: vertical;
 }
 
-.article {
+.page-wrapper {
     padding: 10px;
 }
 
-.article .heading {
+.page-wrapper .heading {
     border-bottom: 1px solid #dddddd;
     margin-bottom: 15px;
 }
 
-.article .heading .title {
+.page-wrapper .heading .title {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 700 !important;
     color: #565656;
 }
 
-.article .metadata {
+.page-wrapper .metadata {
     width: 100%;
     color: #686868;
     margin-bottom: 25px;
 }
 
-.article .metadata .info {
+.page-wrapper .metadata .info {
     display: inline-block;
     margin-right: 10px;
     background: #ffffff;
@@ -295,22 +305,22 @@ input {
     border: 1px solid #e8e8e8;
 }
 
-.article .metadata .info i {
+.page-wrapper .metadata .info i {
     margin-right: 8px;
 }
 
-.article .metadata .info:hover,
-.article .metadata .info:focus {
+.page-wrapper .metadata .info:hover,
+.page-wrapper .metadata .info:focus {
     box-shadow: none;
 }
 
-.article .body {
+.page-wrapper .body {
     font-family: 'Poppins', sans-serif !important;
     color: #686868;
     font-size: 15px;
 }
 
-.article .body img {
+.page-wrapper .body img {
     width: 100%;
     height: auto;
     display: block;
@@ -321,12 +331,12 @@ input {
     transition: ease-in-out .21s;
 }
 
-.article .body img:hover,
-.article .body img:focus {
+.page-wrapper .body img:hover,
+.page-wrapper .body img:focus {
     box-shadow: none;
 }
 
-.article .comments {
+.comments {
     border-top: 1px solid #dddddd;
     background: #ffffff;
     color: #686868;
@@ -384,4 +394,12 @@ input {
 
 .comments-body .comment .user-comment textarea {
     width: 100%;
+}
+
+.btn-collapse {
+    font-weight: 700 !important;
+}
+
+.collapsed {
+    font-weight: normal !important;
 }
