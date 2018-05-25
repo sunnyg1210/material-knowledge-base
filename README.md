@@ -1,6 +1,6 @@
 ![Material Knowledge Base by Sunny Gohil](https://image.ibb.co/eaLV38/mkb.png)
 
-This is a free knowledge base theme developed by **Sunny Gohil**. It utilizes [Bootstrap 4 Material Design](https://fezvrasta.github.io/bootstrap-material-design/). The theme is currently written in static HTML and CSS. More features and demo pages will be added soon. The theme itself is not complete yet but you are most welcome to use it. 
+This is a free knowledge base theme developed by **[Sunny Gohil](https://github.com/sunnyg1210)**. It utilizes [Bootstrap 4 Material Design](https://fezvrasta.github.io/bootstrap-material-design/). The theme is currently written in static HTML and CSS. More features and demo pages will be added soon. The theme itself is not complete yet but you are most welcome to use it. 
 
 I also have another knowledge base theme in my profile. Check it out if you are looking for a different design.
 
