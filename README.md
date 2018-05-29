@@ -9,7 +9,7 @@ If you want to convert this theme for use with WordPress or Angular 2+ and need 
 \
 Demo
 ------
-Demo for this theme can be found [here](https://sunnyg1210.github.io/material-design-knowledge-base-theme)
+Demo for this theme can be found [here](https://sunnyg1210.github.io/material-knowledge-base)
 ![Material Knowledge Base by Sunny Gohil demo](https://preview.ibb.co/jb0rAo/mkb_ss.png)
 
 \
