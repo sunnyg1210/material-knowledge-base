@@ -7,6 +7,17 @@ I also have another knowledge base theme in my profile. Check it out if you are 
 If you want to convert this theme for use with WordPress or Angular 2+ and need help with it, get in touch with me.
 
 \
+Created by the team at [SVS IT Solutions](https://svsitsolutions.co.uk)
+
+<a href="https://svsitsolutions.co.uk"><img src="https://svsitsolutions.co.uk/wp-content/uploads/2017/05/new-svs-website-logo.png"></a>
+
+#### Follow us on Social Media
+Facebook: [@svssoftwaredev](https://www.facebook.com/svssoftwaredev)
+
+Instagram: [@svssoftwaredev](https://www.instagram.com/svssoftwaredev)
+
+
+\
 Demo
 ------
 Demo for this theme can be found [here](https://sunnyg1210.github.io/material-knowledge-base)
